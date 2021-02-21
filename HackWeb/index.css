@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 300;
+  font-weight: 350;
   background-color: #696969;
 }
 
 .container {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -29,16 +29,16 @@ header::after{
 }
 
 nav ul {
-  margin: 0;
+  margin: 20px;
   padding: 0;
   list-style: none;
 }
 
 nav li{
   display: inline-block;
-  margin-left: 70px;
-  padding-top: 25px;
-  padding-bottom: 10px;
+  margin-left: 100px;
+  padding-top: 35px;
+  padding-bottom: 15px;
 
   position: relative;
 }
@@ -47,7 +47,7 @@ nav a{
   color: #444;
   text-decoration: none;
   text-transform: UpperCase;
-  font-seize: 12px;
+  font-seize: 20px;
 }
 
 nav a:hover{
