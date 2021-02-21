@@ -37,7 +37,7 @@ nav ul {
 nav li{
   display: inline-block;
   margin-left: 100px;
-  padding-top: 35px;
+  padding-top: 23px;
   padding-bottom: 15px;
 
   position: relative;
@@ -47,7 +47,7 @@ nav a{
   color: #444;
   text-decoration: none;
   text-transform: UpperCase;
-  font-seize: 20px;
+  font-size: 20px;
 }
 
 nav a:hover{
@@ -69,3 +69,46 @@ nav a::before{
 nav a:hover::before{
   width: 100%;
 }
+
+.button-Container{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 1150px;
+    height: 550px;
+    display: grid;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 2px #043233;
+    display: inline-block;
+}
+
+.single-Section{
+  margin-top: 50px;
+  margin-left: 200px;
+  float: left;
+  background-color: #55d6aa;
+}
+
+.multi-Section{
+  margin-top: 50px;
+  margin-right: 200px;
+  float: right;
+}
+
+#single-friend-button{
+  padding: 40px 50px;
+  background-color: #55d6aa;
+  font-size: 25px;
+}
+
+#chat-room-Button{
+  padding: 40px 60px;
+  background-color: #55d6aa;
+  font-size: 25px;
+
+}
+
+.drinks{
+  margin-left: 300px;
+}
+
