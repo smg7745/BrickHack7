@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chat Room Selector</title>
-  <link rel="stylesheet" href="login-BuzzChat.css">
+  <link rel="stylesheet" href="chatRoom.css">
   <script defer src="login-BuzzChat.js"></script>
 </head>
 
@@ -25,6 +25,19 @@
 
   <main id="main-holder">
 
+    <div id="twitch-embed"></div>
+      <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 800,
+        height: 300,
+        layout: "video",
+        channel: "reddiamondduo"
+      });
+    </script>
 
       <a href="chatRoomSelector-BuzzChat.html">End Chat</a>
       <a href="chatRoom-BuzzChat.html">Extend Chat!</a>
