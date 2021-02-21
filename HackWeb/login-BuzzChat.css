@@ -6,10 +6,71 @@ body {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    background-color: white;
+    background-color:#696969;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.logo{
+  float: left;
+}
+
+header{
+  background: #55d6aa;
+}
+
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-bar{
+  float: left;
+}
+
+nav ul {
+  margin: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 100px;
+  padding-top: 23px;
+  padding-bottom: 15px;
+
+  position: relative;
+}
+
+nav a{
+  color: #444;
+  text-decoration: none;
+  text-transform: UpperCase;
+  font-size: 20px;
+}
+
+nav a:hover{
+  color: #000;
+}
+
+nav a::before{
+  content: "";
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+  width: 100%;
 }
 
 #main-holder {
@@ -18,9 +79,11 @@ body {
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: #daf4f5;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 0px 0px 3px 2px #043233;
+    margin-left: 225px;
+    margin-top: 100px
 }
 
 #login-error-msg-holder {
