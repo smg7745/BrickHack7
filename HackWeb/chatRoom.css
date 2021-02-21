@@ -86,59 +86,33 @@ nav a:hover::before{
     margin-top: 100px
 }
 
-#login-error-msg-holder {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    justify-items: center;
-    align-items: center;
+.links{
+    display: inline-block;
 }
 
-#login-error-msg {
-    width: 23%;
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #8a0000;
-    border: 1px solid #8a0000;
-    background-color: #e58f8f;
-    opacity: 0;
+.End-Container{
+    float: left;
+    margin-right: 100px;
+    background-color: #55d6aa;
+    padding: 20px 32px;
 }
 
-#error-msg-second-line {
-    display: block;
+.Extend-Container{
+    float: right;
+    margin-left: 100px;
+    background-color: #55d6aa;
+    padding: 20px 32px;
+
 }
 
-#login-form {
-    align-self: flex-start;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-}
-
-.login-form-field::placeholder {
-    color: #106a6b;
-}
-
-.login-form-field {
-    border: none;
-    border-bottom: 1px solid #3a3a3a;
-    margin-bottom: 10px;
-    border-radius: 3px;
-    outline: none;
-    padding: 0px 0px 5px 5px;
-}
-
-#login-form-submit {
-    width: 100%;
-    padding: 7px;
-    border: none;
-    border-radius: 5px;
+#ExtendChat{
+    text-decoration: none;
     color: white;
-    font-weight: bold;
-    background-color: #3a3a3a;
-    cursor: pointer;
-    outline: none;
+
+}
+
+#EndChat{
+    text-decoration: none;
+    color: white;
+
 }
