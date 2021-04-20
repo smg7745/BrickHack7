@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\HackWeb\chatRoom.css">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\HackWeb\login-BuzzChat.html">
           <value>
             <Attribute>
@@ -21,6 +28,13 @@
           <value>
             <Attribute>
               <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\HackWeb\singleChatSelector-BuzzChat.html">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
             </Attribute>
           </value>
         </entry>

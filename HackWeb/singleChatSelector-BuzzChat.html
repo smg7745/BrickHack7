@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Get Ready to Make a New Buzz Buddy!</title>
-  <link rel="stylesheet" href="login-BuzzChat.css">
+  <link rel="stylesheet" href="chatRoom.css">
   <script defer src="login-BuzzChat.js"></script>
 </head>
 
@@ -24,9 +24,10 @@
   </header>
 
   <main id="main-holder">
-
-      <label for="topic">Filters:</label>
-        <select id="topic" name="topics" size="5" multiple>
+      <div class="Filter-Container">
+         <label for="topic">Filters:</label>
+      </div>
+          <select id="topic" name="topics" size="5" multiple>
             <option value="None">None</option>
             <option value="Drink">Beverage</option>
             <option value="Age">Age</option>
@@ -38,10 +39,8 @@
         Interests:
       </textarea>
 
-      <a href="chatRoom-BuzzChat.html">Start a chat!</a>
+      <a href="singleChatRoom-BuzzChat.html">Start a chat!</a>
 
   </main>
-</body>
-
 </body>
 </html>

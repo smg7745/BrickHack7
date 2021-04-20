@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room Selector</title>
+    <link rel="stylesheet" href="chatRoom.css">
+    <script defer src="login-BuzzChat.js"></script>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+
+        <img src="buzzChatLogo.png" alt="logo" class="logo" width="300px" height="100px">
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="main-holder">
+
+    <div id="twitch-embed"></div>
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+        new Twitch.Embed("twitch-embed", {
+            width: 800,
+            height: 300,
+            layout: "video",
+            channel: "reddiamondduo"
+        });
+    </script>
+
+    <script>
+        //Assistance from w3schools
+        var countDownDate = new Date().getTime() + 120000;
+        var x = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var mins = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var secs = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("timer").innerHTML = mins + "m " + secs + "s ";
+
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("timer").innerHTML = "Time's Up!";
+                location.reload()
+                //Assign a new partner to chat with!
+            }
+        }, 1000);
+    </script>
+        <div class="Timer-Container">
+            <p id="timer"></p>
+        </div>
+
+    <div class="links">
+        <div class="End-Container">
+            <a id="EndChat" href="singleChatSelector-BuzzChat.html">End Chat</a>
+        </div>
+        <div class="Extend-Container">
+            <a id="ExtendChat"href="singleChatRoom-BuzzChat.html">Extend Chat!</a>
+        </div>
+    </div>
+</main>
+</body>
+
+</body>
+</html>

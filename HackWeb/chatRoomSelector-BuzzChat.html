@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chat Room Selector</title>
-  <link rel="stylesheet" href="login-BuzzChat.css">
+  <link rel="stylesheet" href="chatRoom.css">
   <script defer src="login-BuzzChat.js"></script>
 </head>
 
@@ -23,8 +23,9 @@
     </div>
   </header>
   <main id="main-holder">
-
-      <label for="topic">Chat with a Purpose:</label>
+      <div class="Filter-Container">
+        <label for="topic">Chat with a Purpose:</label>
+      </div>
         <select id="topic" name="topics">
             <option value="None">None</option>
             <option value="Climate Change">Climate Change</option>
@@ -32,8 +33,9 @@
             <option value="Black Lives Matter">Black Lives Matter</option>
             <option value="Health Care">Health Care</option>
         </select>
-
+      <div class="Filter-Container">
       <label for="topic2">Conversation Starter of the Day:</label>
+      </div>
         <select id="topic2" name="topics2">
             <option value="None">None</option>
             <option value="Super">What super power would you want?</option>

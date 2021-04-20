@@ -97,9 +97,29 @@ nav a:hover::before{
     padding: 20px 32px;
 }
 
+.End-Container-2{
+    float: top;
+    background-color: #55d6aa;
+    padding: 20px 32px;
+}
+
 .Extend-Container{
     float: right;
     margin-left: 100px;
+    background-color: #55d6aa;
+    padding: 20px 32px;
+
+}
+
+.Timer-Container{
+    float: top;
+    background-color: #55d6aa;
+    padding: 20px 32px;
+
+}
+
+.Filter-Container{
+    float: top;
     background-color: #55d6aa;
     padding: 20px 32px;
 
@@ -112,6 +132,12 @@ nav a:hover::before{
 }
 
 #EndChat{
+    text-decoration: none;
+    color: white;
+
+}
+
+#timer{
     text-decoration: none;
     color: white;
 
