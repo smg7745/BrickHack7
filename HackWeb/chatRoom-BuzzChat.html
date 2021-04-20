@@ -38,6 +38,27 @@
         channel: "reddiamondduo"
       });
     </script>
+
+    <script>
+      var countDownDate = new Date().getTime() + 120000;
+      var x = setInterval(function() {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        var mins = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var secs = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = mins + "m " + secs + "s ";
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "Time's Up!";
+          //Refresh page
+        }
+      }, 1000);
+    </script>
+    <p id="demo"></p>
       <div class="links">
       <div class="End-Container">
         <a id="EndChat" href="chatRoomSelector-BuzzChat.html">End Chat</a>
