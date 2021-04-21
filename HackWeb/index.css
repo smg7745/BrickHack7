@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 350;
+  font-weight: 400;
   background-color: #696969;
 }
 
@@ -87,25 +87,25 @@ nav a:hover::before{
   margin-left: 200px;
   float: left;
   background-color: #55d6aa;
+  padding: 20px 32px;
 }
 
 .multi-Section{
   margin-top: 50px;
   margin-right: 200px;
   float: right;
+  background-color: #55d6aa;
+  padding: 20px 32px;
 }
 
 #single-friend-button{
-  padding: 40px 50px;
-  background-color: #55d6aa;
-  font-size: 25px;
+  text-decoration: none;
+  color: white;
 }
 
 #chat-room-Button{
-  padding: 40px 60px;
-  background-color: #55d6aa;
-  font-size: 25px;
-
+  text-decoration: none;
+  color: white;
 }
 
 .drinks{
