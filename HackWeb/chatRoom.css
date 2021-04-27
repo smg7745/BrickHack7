@@ -75,14 +75,14 @@ nav a:hover::before{
 
 #main-holder {
     width: 70%;
-    height: 60%;
+    height: 70%;
     display: grid;
     justify-items: center;
     align-items: center;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 0px 3px 2px #043233;
-    margin-left: 225px;
+    margin-left: 100px;
     margin-top: 100px
 }
 
@@ -115,7 +115,12 @@ nav a:hover::before{
     float: top;
     background-color: #2ea37b;
     padding: 20px 32px;
+}
 
+.Venmo-Container{
+    float: top;
+    background-color: #247657;
+    padding: 10px 16px;
 }
 
 .Filter-Container{
@@ -140,5 +145,9 @@ nav a:hover::before{
 #timer{
     text-decoration: none;
     color: white;
+}
 
+#venmo{
+    text-decoration: none;
+    color: white;
 }
